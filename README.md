@@ -21,16 +21,16 @@ transfer learning on cricket images and real match video footage.
     │   ├── raw/                     → 225 original images
     │   ├── data_augmented/          → 1800 balanced images
     │   └── split/
-    │       ├── train/               → 1260 images (630 per class)
-    │       ├── val/                 → 270  images (135 per class)
-    │       └── test/                → 270  images (135 per class)
+    │       ├── train/               → 1260 images
+    │       ├── val/                 → 270  images
+    │       └── test/                → 270  images
     ├── models/
-    │   ├── best_model.keras         → MobileNetV2 saved model
-    │   └── best_model_resnet.keras  → ResNet50V2 saved model
-    ├── results/                     → all charts and evaluation images
+    │   ├── best_model.keras         → MobileNetV2
+    │   └── best_model_resnet.keras  → ResNet50V2
+    ├── results/                     → charts and evaluation images
     ├── videos/
-    │   ├── input/                   → test videos (out / not_out)
-    │   └── output/                  → annotated output videos
+    │   ├── input/                   → test videos
+    │   └── output/                  → annotated videos
     └── notebooks/
         ├── 01_data_preparation_eda.ipynb
         ├── 02_model_training_evaluation.ipynb
@@ -162,7 +162,6 @@ run notebooks in order:
 ## Author
 
 J. Shiva
- ##Cricket Run-Out Detection — Deep Learning Project
+##Cricket Run-Out Detection — Deep Learning Project
 """
-
 
